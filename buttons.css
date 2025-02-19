@@ -1,0 +1,72 @@
+.full-width-button {
+    margin-top: 40px;
+    display: block;
+    width: 100%;
+    line-height: 153px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid purple;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    cursor: pointer;
+}
+
+.full-width-button:hover,
+.full-width-button_small:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: purple;
+}
+
+.full-width-button_middle {
+    margin-top: 80px;
+    width: 500px;
+    height: 100px;
+    line-height: 28.6px;
+    font-size: 25px;
+}
+
+.full-width-button_small {
+    margin-top: 80px;
+    line-height: 63px;
+    font-size: 20px;
+}
+
+.full-width-button_small:hover {
+    border: 1px solid purple;
+    background-color: white;
+    color: purple;
+}
+
+.full-width-button_inverted {
+    background-color: purple;
+    color: #FFFFFF;
+}
+
+.full-width-button_inverted:hover {
+    background-color: #FFFFFF;
+    color: purple;
+}
+
+@media (max-width: 1199px) {
+    .full-width-button {
+        margin-top: 90px;
+    }
+    .full-width-button_small {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .full-width-button {
+        margin-top: 90px;
+        line-height: 100px;
+        font-size: 22px;
+    }
+    .full-width-button_small {
+        margin-top: 70px;
+    }
+}

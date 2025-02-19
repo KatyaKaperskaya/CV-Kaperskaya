@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAPERSKAYA</title>
+    <link rel="icon" href="/LETTER-K.jpg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <header>
+
+    <div class="nav-section">
+        <div class="nav-container">
+            <button class="burger__btn js-burger-btn"></button>
+            <div class="burger js-burger">
+                <div class="burger__content">
+                    <div class="burger__price">KAPERSKAYA</div>
+                    <nav class="burger__nav">
+                        <ul class="burger__navList">
+                            <li>
+                            <a href="#projects" class="burger__navItem">ПОРТФОЛИО</a>
+                            </li>
+                            <li>
+                            <a href="#services" class="burger__navItem">УСЛУГИ</a>
+                            </li>
+                            <li>
+                            <a href="#skills" class="burger__navItem">КОМПЕТЕНЦИИ</a>
+                            </li>
+                            <li>
+                            <a href="#contacts" class="burger__navItem">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="burger__contacts js-burger__content">
+                        <div class="burger__contactsTitle">для связи:</div>
+                        <a class="burger__contactsLink" href="mailto:ekaterina.koperskaya@gmail.com"
+                          >Mail</a
+                        >
+                        <div class="burger__contactsLink">
+                            <a
+                              class="burger__contactsLink"
+                              target="_blank"
+                              href="https://t.me/@katarina_kaperskaya"
+                              >Telegram</a
+                            >
+                        </div>
+                        <div class="burger__contactsLink">
+                            <a
+                              class="burger__contactsLink"
+                              target="_blank"
+                              href="https://www.linkedin.com/in/katsiaryna-kaperskaya-20a5a5236/"
+                              >LinkedIn</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="intro">
+            <div class="intro-image">
+            <div class="intro-container">
+                <div class="intro__price">KAPERSKAYA</div>
+                <nav class="nav">
+                    <a href="#projects" class="nav__link">ПОРТФОЛИО</a>
+                    <a href="#services" class="nav__link">УСЛУГИ</a>
+                    <a href="#skills" class="nav__link">КОМПЕТЕНЦИИ</a>
+                    <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
+                </nav>
+            </div>
+                <div class="intro-image__text">
+                <p>Разрабатываю сайты для бизнеса, которые
+                    повышают престиж компании и позволяют
+                    выделиться на фоне конкурентов
+                </p>
+                <h1 class="intro-text">
+                    Привет, я   Катя  —<br>
+                    фронтенд разработчик сайтов</h1>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    </header>
+    <main>
+        <div class="js-popup popup">
+            <div class="js-popup__content popup__content">
+                <button class="js-popup__close-btn popup__close-btn"></button>
+                <div class="order__title">Заполнить форму</div>
+                <div class="order__subtitle">
+                    Заполните форму и с вами свяжутся в течении суток
+                </div>
+                <form class="orfer__form">
+                    <input class="input order__input" type="text" name="name" placeholder="Имя">
+                    <input class="input order__input" type="email" name="email" placeholder="Электронная почта">
+                </form>
+
+                <button
+                  class="full-width-button full-width-button_inverted full-width-button_small"
+                >
+                  Отправить
+                </button>
+            </div>
+        </div>
+
+        <section>
+            <h2 id="projects">Проекты</h2>
+            <ul class="projects">
+                <li class="project">
+                    <picture>
+                        <source
+                        media="(max-width: 767px)"
+                        srcset="/interior.png"
+                        />
+                        <source
+                        media="(max-width: 1199px)"
+                        srcset="/interior.png"
+                        />
+                        <img class="project__image"
+                        src="/interior.png"
+                        alt="красивый диван"
+                        />
+                        <div class="project__price">дизайн интерьера</div>
+                    </picture>
+                    <h3 class="project__title">МЕТРИКА</h3>
+                    <a class="project__link" href="/" target="_blank">Подробнее →</a>
+                </li>
+            </ul>
+
+            <ul class="projects">
+                <li class="project">
+                    <picture>
+                        <source
+                        media="(max-width: 767px)"
+                        srcset="/travel.png"
+                        />
+                        <source
+                        media="(max-width: 1199px)"
+                        srcset="/travel.png"
+                        />
+                        <img class="project__image"
+                        src="/travel.png"
+                        alt="милый кофейный столик"
+                        />
+                        <div class="project__price">путешествия</div>
+                    </picture>
+                    <h3 class="project__title">Discover Amazing places in Japan</h3>
+                    <a class="project__link" href="https://katyakaperskaya.github.io/Travel/" target="_blank">Подробнее →</a>
+                </li>
+            </ul>
+
+            <ul class="projects">
+                <li class="project">
+                    <picture>
+                        <source
+                        media="(max-width: 767px)"
+                        srcset="/shop.png"
+                        />
+                        <source
+                        media="(max-width: 1199px)"
+                        srcset="/shop.png"
+                        />
+                        <img class="project__image"
+                        src="/shop.png"
+                        alt="стол с креслами"
+                        />
+                    </picture>
+                    <div class="project__price">магазин мебели</div>
+                    <h3 class="project__title">HOUSE STAFF</h3>
+                    <a class="project__link" href="/" target="_blank">Подробнее →</a>
+                </li>
+            </ul>
+
+            <a class="full-width-button" href="https://github.com/KatyaKaperskaya?tab=repositories" target="_blank">
+                Смотреть все проекты
+            </a>
+        </section>
+        <section class="services_long">
+            <h2 id="services">Реализовываю широкий спектр задач</h2>
+            </section>
+            <section class="section-full section-nopadd">
+                <div class="services">
+                    <div class="container">
+
+                        <div class="services__controls">
+                        <button class="services__prev"></button>
+                        <button class="services__next"></button>
+                        </div>
+                    </div>
+
+                    <div class="services__slides">
+                        <div class="services__slide services__slide_active">
+                            <img
+                            class ="services__image"
+                            src="/development.png"
+                            />
+                            <p class="services__title">Разработка сайта</p>
+                            <p class="services-text">
+                                Это создание веб-сайтов, созданных для
+                                удобства пользователя и решения бизнес-
+                                задач. Сайты должны быть понятными и
+                                удобными, ведь чем понятнее сайт, тем
+                                быстрее пользователь совершит целевое
+                                действие
+                            </p>
+                        </div>
+                        <div class="services__slide">
+                            <img
+                            class ="services__image"
+                            src="/layot.png"
+                            />
+                            <p class="services__title">Верстка сайтов</p>
+                            <p class="services-text">
+                                Это процесс создания HTML-документов и
+                                применения к ним стилей на CSS. Фронтенд
+                                разработчик может помочь создать
+                                привлекательный и удобный интерфейс для
+                                вашего сайта
+                            </p>
+                        </div>
+                        <div class="services__slide">
+                            <img
+                            class ="services__image"
+                            src="/development mobile.png"
+                            />
+                            <p class="services__title">Разработка мобильного интерфейса</p>
+                            <p class="services-text">
+                                Это процесс создания интерактивных
+                                элементов на странице с помощью JavaScript.
+                                Фронтенд разработчик может помочь создать
+                                динамический и удобный пользовательский
+                                интерфейс для вашего сайта или приложения
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<section class="skill_long">
+    <h2 id="skills">Мои компетенции</h2>
+    <ul class="skills">
+        <li class="skill">
+            <div class="skill__title skill__title__html">HTML и CSS</div>
+            <div class="skill__text">
+                это основа фронтенд разработки. Умение
+                создавать и правильно структурировать
+                HTML-документы, а также применять стили к
+                этим документам на CSS, является
+                обязательным навыком для каждого фронтенд
+                разработчика.
+            </div>
+        </li>
+        <li class="skill">
+            <div class="skill__title skill__title__js">JavaScript</div>
+            <div class="skill__text">
+                это язык программирования, который используется
+                для создания динамического и интерактивного
+                пользовательского интерфейса. Хороший фронтенд
+                разработчик должен быть знаком с основами
+                JavaScript, включая работу с DOM-деревом,
+                асинхронными запросами и манипуляцией данными
+                на стороне клиента.
+            </div>
+        </li>
+        <li class="skill">
+            <div class="skill__title skill__title__react">Работа с библиотеками и фреймворками</div>
+            <div class="skill__text">
+                фронтенд разработчики должны быть знакомы с
+                различными библиотеками и фреймворками,
+                такими как React, Angular, Vue и другими.
+            </div>
+        </li>
+        <li class="skill">
+            <div class="skill__title skill__title__mobile">Разработка для мобильных устройств и адаптивная верстка</div>
+            <div class="skill__text">
+                умение использовать готовые решения,
+                адаптировать их под нужды проекта и
+                расширять их функциональность, является
+                очень важным навыком.
+            </div>
+        </li>
+    </ul>
+</section>
+
+        <section class="section-long">
+            <div id="contacts" class="contacts-image">
+                <div class="contacts-image__text">
+                <p>Для связи со мной заполните простую форму
+                </p>
+                <button class="js-btn full-width-button full-width-button_inverted full-width-button_middle">
+                    Заполнить
+                </div>
+                <ul class="contacts_text">
+                    <li>
+                    <a class="contacts__mail"
+                    target="_blank"
+                    href="mailto:ekaterina.koperskaya@gmail.com"
+                    >Mail</a>
+                    </li>
+                    <li>
+                    <a class="contacts__telegram"
+                    target="_blank"
+                    href="https://t.me/@katarina_kaperskaya"
+                    >Telegram</a>
+                    </li>
+                    <li>
+                    <a class="contacts__instagram"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/katsiaryna-kaperskaya-20a5a5236/"
+                    >LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="container-black">
+        <nav class="footernav">
+            <a href="#projects" class="footernav__link">ПОРТФОЛИО</a>
+            <a href="#services" class="footernav__link">УСЛУГИ</a>
+            <a href="#skills" class="footernav__link">КОМПЕТЕНЦИИ</a>
+            <a href="#contacts" class="footernav__link">КОНТАКТЫ</a>
+        </nav>
+        <p class="footer_title">Портфолио фронтенд разработчика Кати Коперской <br> Все права защищены — 2025</p>
+    </footer>
+
+    <script src="services.js"></script>
+    <script src="popup.js"></script>
+    <script src="burger.js"></script>
+</body>
+</html>

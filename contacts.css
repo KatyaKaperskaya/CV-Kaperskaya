@@ -1,0 +1,101 @@
+.section-long {
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 1400px;
+    height: 717px;
+    background: #FFFFFF;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24.59px;
+}
+
+.contacts__block {
+    margin-top: 74px;
+    display: flex;
+}
+
+.contacts__phone,
+.contacts__link {
+    width: 50%;
+}
+
+.contacts__phone:hover,
+.contacts__link:hover {
+    content: "";
+    display: block;
+    margin-bottom: 26px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacts__phone:before {
+    background-image: url(../phone.png);
+}
+
+.contacts__link:before {
+    background-image: url(../mail.png);
+}
+
+.contacts__phone {
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.contacts__link {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: #121212;
+}
+
+.contacts-image {
+    position: relative;
+    width: 1400px;
+    height: 717px;
+    background-image: url('/violet.jpg');
+    background-size: cover;
+
+}
+
+.contacts-image__text {
+    position: absolute;
+    top: 100px;
+    left: 122px;
+    width: 520px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.contacts_text a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    left: 1000px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.contacts__mail {
+    bottom: 300px;
+}
+
+.contacts__telegram {
+    bottom: 200px;
+}
+
+.contacts__instagram {
+    bottom: 100px;
+}

@@ -1,0 +1,148 @@
+.burger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    visibility: hidden;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.burger__btn {
+    display: none;
+    z-index: 2000;
+}
+
+.burger-open {
+    visibility: visible;
+}
+
+.burger__content {
+    width: 400px;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0 80px 30px;
+    background-color: plum;
+    transition: transform 0.3s linear, background-color 2s linear;
+    transform: translateX(100%);
+}
+
+.burger-open .burger__content {
+    transform: translateX(0);
+    background-color: gray;
+}
+
+.burger__price {
+    position: absolute;
+    width: 156px;
+    top: 55px;
+    margin-left: 0px;
+    color: white;
+    border-radius: 100px;
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+.burger__nav {
+    margin-top: 50px;
+}
+
+.burger__navList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.burger__navItem {
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #000;
+}
+
+.burger__contacts {
+    margin-top: 90px;
+}
+
+.burger__contactsTitle {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    opacity: 0.5;
+}
+
+.burger__contactsLink {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #121212;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1199px) {
+    .burger__btn {
+        display: block;
+        width: 50px;
+        position: relative;
+        background: none;
+        border: none;
+    }
+
+    .burger__btn::before,
+    .burger__btn::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 2px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .burger__btn_open:before,
+    .burger__btn_open:after {
+        display: none;
+    }
+
+    .burger__btn::after {
+        top: 6px;
+        width: 31px;
+    }
+
+    .burger__btn_open {
+        height: 34px;
+        width: 20px;
+        background-image: url("../close_cross_mobile.png");
+        background-repeat: no-repeat;
+    }
+    .popup__close__btn {
+        top: 20px;
+        right: 29px;
+        height: 30px;
+        width: 30px;
+        background-image: url("../close_cross_mobile.png");
+    }
+}
+
+@media (max-width: 767px) {
+    .popup__close__btn {
+        top: 20px;
+        right: 29px;
+        height: 30px;
+        width: 30px;
+        background-image: url("../close_cross_mobile.png");
+    }
+
+    .popup__content {
+        padding: 80px 16px 80px 16px;
+    }
+}

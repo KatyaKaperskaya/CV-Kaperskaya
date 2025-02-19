@@ -1,0 +1,57 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.5s ease;
+}
+
+.popup_open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup__content {
+    position: relative;
+    padding: 94px 79px 86px 55px;
+    width: 777px;
+    max-height: 100%;
+    overflow-y: auto;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.popup__close-btn {
+    position: absolute;
+    top: 32px;
+    right: 44px;
+    height: 50px;
+    width: 50px;
+    background-color: #FFFFFF;
+    border: none;
+    background-image: url("../close_cross.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 767px) {
+    .popup__close-btn {
+        top: 40px;
+        right: 29px;
+        height: 30px;
+        width: 30px;
+        background-image: url("../close_cross_mobile.png");
+    }
+    .popup__content {
+        padding: 80px 16px 80px 16px;
+    }
+}
