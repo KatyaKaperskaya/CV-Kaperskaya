@@ -57,12 +57,12 @@
 
 .services__prev {
     left: 125px;
-    background-image: url("../arrow-left.png");
+    background-image: url("arrow-left.png");
 }
 
 .services__next {
     left: 180px;
-    background-image: url("../arrow-left.png");
+    background-image: url("arrow-left.png");
     transform: rotate(180deg);
 }
 
