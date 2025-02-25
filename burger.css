@@ -121,7 +121,7 @@
     .burger__btn_open {
         height: 34px;
         width: 20px;
-        background-image: url("../close_cross_mobile.png");
+        background-image: url("close_cross_mobile.png");
         background-repeat: no-repeat;
     }
     .popup__close__btn {
@@ -129,7 +129,7 @@
         right: 29px;
         height: 30px;
         width: 30px;
-        background-image: url("../close_cross_mobile.png");
+        background-image: url("close_cross_mobile.png");
     }
 }
 
@@ -139,7 +139,7 @@
         right: 29px;
         height: 30px;
         width: 30px;
-        background-image: url("../close_cross_mobile.png");
+        background-image: url("close_cross_mobile.png");
     }
 
     .popup__content {
