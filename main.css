@@ -1,17 +1,17 @@
-@import "header.css";
-@import "headings.css";
-@import "intro.css";
-@import "about-us.css";
-@import "projects.css";
-@import "buttons.css";
-@import "services.css";
-@import "skills.css";
-@import "contacts.css";
-@import "footer.css";
-@import "popup.css";
-@import "order.css";
-@import "input.css";
-@import "burger.css";
+@import "/header.css";
+@import "/headings.css";
+@import "/intro.css";
+@import "/about-us.css";
+@import "/projects.css";
+@import "/buttons.css";
+@import "/services.css";
+@import "/skills.css";
+@import "/contacts.css";
+@import "/footer.css";
+@import "/popup.css";
+@import "/order.css";
+@import "/input.css";
+@import "/burger.css";
 
 
 html {
