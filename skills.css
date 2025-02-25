@@ -35,7 +35,7 @@ h2#skills {
     width: 45px;
     height: 45px;
     border-radius: 5px;
-    background-image: url(/icon-html.png);
+    background-image: url(icon-html.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -47,7 +47,7 @@ h2#skills {
     width: 45px;
     height: 45px;
     border-radius: 5px;
-    background-image: url(/icon-js.png);
+    background-image: url(icon-js.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,7 +59,7 @@ h2#skills {
     width: 45px;
     height: 45px;
     border-radius: 5px;
-    background-image: url(/icon-react.png);
+    background-image: url(icon-react.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -71,7 +71,7 @@ h2#skills {
     width: 45px;
     height: 45px;
     border-radius: 5px;
-    background-image: url(/icon-mobile.png);
+    background-image: url(icon-mobile.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
