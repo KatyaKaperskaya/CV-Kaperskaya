@@ -33,11 +33,11 @@ h3 {
 }
 
 .contacts__phone:before {
-    background-image: url(../phone.png);
+    background-image: url(phone.png);
 }
 
 .contacts__link:before {
-    background-image: url(../mail.png);
+    background-image: url(mail.png);
 }
 
 .contacts__phone {
@@ -62,7 +62,7 @@ h3 {
     position: relative;
     width: 1400px;
     height: 717px;
-    background-image: url('/violet.jpg');
+    background-image: url('violet.jpg');
     background-size: cover;
 
 }
